@@ -1,0 +1,25 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #101522;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1 {
+  padding: 20px;
+  font-size: 28px;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: calc(100vh - 75px);
+}
